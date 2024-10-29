@@ -12,7 +12,7 @@ The project consists of a base class for marketing materials and several subclas
    - The `toString()` method provides a string representation of the object.
 
 ### 2. Subclasses of `MarketingMaterial`
-   - **Flyer**: Represents a flyer with specific layout, content, and color.
+   - **Flyer**: Represents a flyer with a specific layout, content, and color.
    - **Brochure**: Represents a brochure, following the same structure as `Flyer`.
    - **Poster**: Represents a poster, also inheriting from `MarketingMaterial`.
    - Each subclass implements the `CloneableMarketingMaterial` interface and provides a `clone()` method to create a copy of itself.
@@ -43,3 +43,14 @@ MarketingMaterial{layout='Flyer-A4', content='Cloned Flyer', color='White'}
 MarketingMaterial{layout='Poster-A3', content='Welcome to prototype design pattern', color='Red'}
 MarketingMaterial{layout='Poster-A3', content='Welcome to prototype design pattern', color='Black'}
 ```
+
+## Key Takeaways
+- The Prototype Pattern provides a way to create new objects based on existing ones, promoting efficiency and reducing overhead in object creation.
+- Cloning allows for easy modifications of object properties without affecting the original instance.
+- This design is especially useful in scenarios where object creation is costly or complex.
+
+
+## Usage
+1. Clone the repository and navigate to the project directory.
+2. Compile the project files.
+3. Run the `Main` class to see the Prototype pattern in action with marketing materials.
